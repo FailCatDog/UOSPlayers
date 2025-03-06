@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -25,14 +25,30 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        main.cpp \
-        mainwindow.cpp
+    main.cpp \
+    playercontroller.cpp \
+    mediainfo.cpp \
+    audiodecoder.cpp \
+    audiooutput.cpp \
+    vediodecoder.cpp \
+    vediorenderer.cpp \
+    mainwindow.cpp \
+    controlpanel.cpp
 
 HEADERS += \
-        mainwindow.h
+    playercontroller.h \
+    mediainfo.h \
+    audiodecoder.h \
+    audiooutput.h \
+    vediodecoder.h \
+    videorenderer.h \
+    controlpanel.h \
+    mainwindow.h
 
 FORMS += \
-        mainwindow.ui
+    mainwindow.ui
+
+RESOURCES += \
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

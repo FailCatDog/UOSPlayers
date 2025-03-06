@@ -1,0 +1,4 @@
+#ifndef AUDIODECODER_H
+#define AUDIODECODER_H
+
+#endif // AUDIODECODER_H
