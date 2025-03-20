@@ -4,6 +4,10 @@
 
 ---
 
-对于最初的spark_player，是win下的，要跑可能得下载lav filters，参考这篇文章
+uos下跑通，网络流、截图有bug，可能要用到Gstream，debug中
+
+---
+
+win下要跑可能得下载lav filters，参考这篇文章
 
 https://blog.csdn.net/qiannozongheng/article/details/138560665
